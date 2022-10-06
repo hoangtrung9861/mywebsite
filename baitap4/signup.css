@@ -1,0 +1,13 @@
+h1{
+    color: springgreen;
+}
+p{
+    color:slateblue;
+    font-size: 17px;
+    font-weight: 900;
+}
+body{
+    padding-left: 550px;
+    background-color: wheat;
+    background-image: url(/baitap4/hinhanh/bgimg2.jpg);
+}

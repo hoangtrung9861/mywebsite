@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <h1 >Sign Up</h1>
+    <form action="home.html">
+        <p>Your basic info</p>
+        Name: <br>
+        <input type="text" id="Name" required> <br>
+        Email: <br>
+        <input type="email" id="email" required><br>
+        Password: <br>
+        <input type="password" id="password" required><br>
+        Age: <br>
+        <input type="radio" name="age"> Under 18 <br>
+        <input type="radio" name="age"> 18 or older <br>
+        <p>Your proflie</p>
+        Biography: <br>
+        <textarea name="" id="" cols="30" rows="4"></textarea> <br>
+        Job Role: <br>
+        <select>
+        <optgroup label="Web">
+                <option>PHP Developer</option>
+                <option>Font-End Developer</option>
+                <option>Python Developer</option>
+                <option>Rails Developer</option>
+                <option>Web Designer</option>
+                <option>WordPress Developer</option>
+        </optgroup>
+        <optgroup label="Mobile">
+                <option value="">Androi Developer</option>
+                <option value="">IOS Developer</option>
+                <option value="">Mobile Designer</option>
+        </optgroup>
+        <optgroup label="Business">
+            <option value="">Business Owner</option>
+            <option value="">Freelancer</option>
+        </optgroup>
+        <optgroup label="Other">
+            <option value="">Secretary</option>
+            <option value="">Maintenance</option>
+        </optgroup>
+        </select> <br>
+        <br>
+        <a href="home.html"><input type="submit" value="Sign up"></a>
+    </form>
+</body>
+</html>

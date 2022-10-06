@@ -1,0 +1,24 @@
+body{
+    width: fit-content;
+    margin-left: 250px;
+    margin-top: 80px;
+    background-image: url(/baitap4/hinhanh/bgimg.jpg);max-content; width: max-content;
+}
+footer{
+    text-align: center  ;
+    font-weight: 900;
+}
+.tr1{
+    background-color:black;
+}
+.nav1{
+    display:block;
+    text-align:end;
+    font-weight: 900;
+    padding-bottom:10px;
+}
+.div1{
+    font-weight: 900;
+    padding-top: 10px;
+}
+
